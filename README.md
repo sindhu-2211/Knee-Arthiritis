@@ -28,7 +28,7 @@ Clone the repository.
 
 Install dependencies with pip install -r requirements.txt.
 
-Train models:
+# Train models:
 
 HOG + SVM: python train_hog_svm.py
 

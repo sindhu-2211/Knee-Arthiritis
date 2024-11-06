@@ -19,11 +19,12 @@ Cascade Model: This model follows a cascading approach with EfficientNet -> ResN
 CBAM Model: In this approach, we used a combination of InceptionResNetV2, MobileNetV2, and EfficientNetB5, integrated with a Convolutional Block Attention Module (CBAM). CBAM applies channel and spatial attention, refining features for better classification performance. This model showed the highest accuracy across all approaches tested .
 
 # Results
-CBAM Model: Achieved the best performance, with high accuracy and a balanced classification across severity levels which is around 96.6%.
+* CBAM Model: Achieved the best performance, with high accuracy and a balanced classification across severity levels which is around 96.6%.
 
-Cascade Model: Showed improved performance by leveraging a multi-stage classification process with around of 92.33%.
+* Cascade Model: Showed improved performance by leveraging a multi-stage classification process with around of 92.33%.
 
-HOG + SVM: Provided robust accuracy, especially with simpler features, reaching 81.78% on validation and 82.80% on the test set.
+* HOG + SVM:  85.68% on validation and 84.01% on the test set.
+
 
 
 # Authors

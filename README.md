@@ -25,11 +25,17 @@ HOG + SVM: Provided robust accuracy, especially with simpler features, reaching 
 
 # How to Run
 Clone the repository.
+
 Install dependencies with pip install -r requirements.txt.
+
 Train models:
+
 HOG + SVM: python train_hog_svm.py
+
 Cascade Model: python train_cascade_model.py
+
 CBAM Model: python train_cbam_model.py
+
 Evaluate models on the test set using: python evaluate_model.py
 
 # Authors

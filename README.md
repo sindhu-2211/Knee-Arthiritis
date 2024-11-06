@@ -1,4 +1,3 @@
-# Knee-Arthiritis
 # Knee Arthritis Severity Classification using X-Ray Images
 # Overview
 This project focuses on automating knee arthritis severity classification through X-ray images. We utilize advanced feature extraction and classification algorithms to improve diagnostic accuracy, aiding early detection and assessment of arthritis severity levels.

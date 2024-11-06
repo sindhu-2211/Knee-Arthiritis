@@ -20,23 +20,11 @@ CBAM Model: In this approach, we used a combination of InceptionResNetV2, Mobile
 
 # Results
 CBAM Model: Achieved the best performance, with high accuracy and a balanced classification across severity levels which is around 96.6%.
+
 Cascade Model: Showed improved performance by leveraging a multi-stage classification process with around of 92.33%.
+
 HOG + SVM: Provided robust accuracy, especially with simpler features, reaching 81.78% on validation and 82.80% on the test set.
 
-# How to Run
-Clone the repository.
-
-Install dependencies with pip install -r requirements.txt.
-
-# Train models:
-
-HOG + SVM: python train_hog_svm.py
-
-Cascade Model: python train_cascade_model.py
-
-CBAM Model: python train_cbam_model.py
-
-Evaluate models on the test set using: python evaluate_model.py
 
 # Authors
 Oladri Renuka
